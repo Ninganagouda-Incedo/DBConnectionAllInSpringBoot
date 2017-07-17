@@ -12,7 +12,8 @@ import org.springframework.stereotype.Component;
 public class Catalog implements Serializable {
 
 	@Id
-	private String id,name,description;
+	private String id;
+	private String name,description;
 
 	public String getId() {
 		return id;
